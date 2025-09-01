@@ -1,2 +1,3 @@
-def main() -> None:
-    print("Hello from podbug!")
+import debug
+
+__all__ = ['debug']
