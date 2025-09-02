@@ -7,7 +7,9 @@ authors = [
     { name = "awepo", email = "dc22762@um.edu.mo" }
 ]
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "pydantic>=2.11.7",
+]
 
 [project.scripts]
 podbug = "podbug:main"
